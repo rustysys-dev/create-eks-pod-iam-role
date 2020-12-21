@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function create_eks_pod_role() {
+function create_eks_pod_iam_role() {
     local CLUSTER_NAME ROLE_NAME ROLE_DESCRIPTION CONTAINER_POLICY_ARN SERVICE_ACCOUNT_NAME
     local ISSUER_ADDRESS ISSUER_ID ISSUER_DOMAIN PROVIDER_ARN ROLE_ARN NAMESPACE
     function usage() {
